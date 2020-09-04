@@ -1,7 +1,7 @@
 {
-    "compilerOptions": {
-    "outDir": "./output"
-    },
-    "include": ["./scripts/*"],
-    "exclude": []
+  "compilerOptions": {
+  "outDir": "./output"
+  },
+  "include": ["./src/*"],
+  "exclude": []
 }

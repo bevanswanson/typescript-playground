@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-typescript": "tsc"
+    "start": "tsc && node ./output"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevanswanson/typescript-playground.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bevanswanson/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/bevanswanson/typescript-playground#readme",
   "devDependencies": {
     "typescript": "^4.0.2"
-  },
-  "dependencies": {
-    "@types/node": "^14.6.4"
   }
 }
